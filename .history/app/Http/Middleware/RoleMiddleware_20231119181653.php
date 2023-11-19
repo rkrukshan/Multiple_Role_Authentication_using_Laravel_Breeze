@@ -17,10 +17,10 @@ class RoleMiddleware
     {
         // dd($request->user()->role);
 
-        if($request->user()->role!==$role)
-        {
-            abort(404);
-        }
+        // if($request->user()->role!==$role)
+        // {
+        //     abort(404);
+        // }
         return $next($request);
     }
 }

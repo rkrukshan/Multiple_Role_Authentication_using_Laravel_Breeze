@@ -17,7 +17,7 @@ class RoleMiddleware
     {
         if($request->user()->role)
         {
-            abort(404);
+            abort(404)
         }
         return $next($request);
     }

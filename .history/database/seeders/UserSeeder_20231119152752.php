@@ -17,22 +17,8 @@ class UserSeeder extends Seeder
             ['name'=>'Rukshan',
             'email'=>'rukshan@gmail.com',
             'role'=>'admin',
-            'status'=>'active',
-            'password'=>bcrypt('password')],
-
-
-            ['name'=>'RK',
-            'email'=>'rk@gmail.com',
-            'role'=>'customer',
-            'status'=>'active',
-            'password'=>bcrypt('password')],
-
-
-            ['name'=>'Ruk',
-            'email'=>'ruk@gmail.com',
-            'role'=>'vendor',
-            'status'=>'active',
-            'password'=>bcrypt('password')]
+            'status'=>'Rukshan',
+            'name'=>'Rukshan',]
         ]);
     }
 }

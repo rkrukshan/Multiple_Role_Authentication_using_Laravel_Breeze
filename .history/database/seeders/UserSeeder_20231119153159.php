@@ -29,10 +29,10 @@ class UserSeeder extends Seeder
 
 
             ['name'=>'Ruk',
-            'email'=>'ruk@gmail.com',
-            'role'=>'vendor',
+            'email'=>'rukshan@gmail.com',
+            'role'=>'admin',
             'status'=>'active',
-            'password'=>bcrypt('password')]
+            'password'=>bcrypt('password')],
         ]);
     }
 }

@@ -22,17 +22,17 @@ class UserSeeder extends Seeder
 
 
             ['name'=>'RK',
-            'email'=>'rk@gmail.com',
-            'role'=>'customer',
+            'email'=>'rukshan@gmail.com',
+            'role'=>'admin',
             'status'=>'active',
             'password'=>bcrypt('password')],
 
 
-            ['name'=>'Ruk',
-            'email'=>'ruk@gmail.com',
-            'role'=>'vendor',
+            ['name'=>'Rukshan',
+            'email'=>'rukshan@gmail.com',
+            'role'=>'admin',
             'status'=>'active',
-            'password'=>bcrypt('password')]
+            'password'=>bcrypt('password')],
         ]);
     }
 }

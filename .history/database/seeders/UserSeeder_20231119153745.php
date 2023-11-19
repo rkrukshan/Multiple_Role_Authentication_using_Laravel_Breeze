@@ -32,7 +32,7 @@ class UserSeeder extends Seeder
             'email'=>'ruk@gmail.com',
             'role'=>'vendor',
             'status'=>'active',
-            'password'=>bcrypt('11111111')]
+            'password'=>bcrypt('password')]
         ]);
     }
 }

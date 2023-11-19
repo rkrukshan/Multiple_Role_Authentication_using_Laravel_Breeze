@@ -35,10 +35,6 @@ require __DIR__.'/auth.php';
 
 Route::middleware(['auth','role:admin'])->group(function () {
 Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('Admin.index');
-});
-
-Route::middleware(['auth','role:vendor'])->group(function () {
 Route::get('/vendor/dashboard', [VendorController::class, 'index'])->name('Vendor.index');
 });
-
 

@@ -33,8 +33,8 @@ Route::middleware('auth')->group(function () {
 require __DIR__.'/auth.php';
 
 
-Route::middleware('auth')->group(function () {
+// Route::middleware('auth')->group(function () {
 Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('Admin.index');
 Route::get('/vendor/dashboard', [VendorController::class, 'index'])->name('Vendor.index');
-});
+// });
 
